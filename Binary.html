@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Text to Binary Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Text to Binary Converter</h1>
+    <label for="textInput">Enter text:</label>
+    <textarea id="textInput" rows="4" cols="50" placeholder="Type your text here..."></textarea>
+    <button onclick="convertToBinary()">Convert to Binary</button>
+    <div id="binaryOutput"></div>
+    <button onclick="toggleDarkMode()">Dark Mode</button>
+    <button onclick="clearText()">Clear Text</button> 
+  </div>
+  <script src="binary.js"></script>
+</body>
+</html>
