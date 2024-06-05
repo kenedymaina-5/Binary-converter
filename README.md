@@ -14,4 +14,4 @@ Binary Converter is a simple web application that allows users to convert binary
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/binary-converter.git
+   git clone https://github.com/kenedymaina-5/Binary-converter.git
